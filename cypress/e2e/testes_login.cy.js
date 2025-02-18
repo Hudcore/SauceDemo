@@ -37,7 +37,7 @@ describe('Testes de login', function() {
   })
 
 
-  it ('Login sem senha - não permitido', function()
+  it ('Login sem usuário - não permitido', function()
   {
     cy.get('[data-test="password"]').type('secret_sauce')
     cy.get('[data-test="login-button"]').click()
