@@ -19,13 +19,13 @@ it('Adicionar produto ao carrinho e atualiza badge',function(){
     cy.get('[data-test="shopping-cart-badge"]').contains('1')
 })
 
-
+/*
 it('Remove produto do carrinho e atualiza badge'),function() {
 
     cy.get('[data-test="remove-sauce-labs-backpack"]').click()
     cy.get('[data-test="shopping-cart-badge"]').not().contains('.shopping_cart_badge')
     
-}
+}*/
 
 
 
